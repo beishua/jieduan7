@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/back/myAjax.js"></script>
+    <link rel="stylesheet" href="/css/findAll.css">
+    <script src="/js/back/news/newsManage.js"></script>
+</head>
+<body>
+<div>
+    <div>新闻名称：<input type="text" id="title"></div>
+    <div>新闻描述：<input type="text" id="content"></div>
+    <div><input type="button" value="查询" onclick="findAll()">
+        <input type="reset" value="清空" onclick="window.nClear()"></div>
+</div>
+<table class="find-all">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>新闻名称</th>
+        <th>新闻描述</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="newsFindAll">
+
+    </tbody>
+</table>
+<div id="page">
+
+</div>
+</body>
+</html>

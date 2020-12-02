@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}/*通配符*/
+.quanjishou>div img{
+    width: 100%;
+    height: 400px;
+}/*拳击手图片大小*/
+.shouyeguanyuwomen{
+    background-image: url("../img/m1z5.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    margin: 10px 0;
+}/*背景大小、间距*/
+.shouyeguanyuwomen>div{
+    width: 400px;
+    /*border: 1px solid red;*/
+    color: white;
+    padding: 60px 20px 50px 80px;
+
+}/*字体位置*/
+.shouyeguanyuwomen>div>div:first-child{
+     font-size: 18px;
+    margin: 40px 20px 50px;
+    font-weight: bold;
+}/*字体大小*/
+.shouyeguanyuwomen>div>div:nth-child(2){
+    /*margin: 0 20px 50px 80px;*/
+    font-size: 13px;
+    margin: 40px 20px 50px;
+}/*字体大小*/
+.shouyeguanyuwomen>div>div:first-child>div:first-child{
+    color: red;
+}/*字体颜色*/
+.shouyesirenjiaolian{
+    background-image: url("../img/cjg0.jpg");
+    background-size: 100% 100%;
+    height: 450px;
+}/*背景*/
+.shouyesirenjiaolian>div{
+    /*border: 1px solid red;*/
+    height: 450px;
+    width: 1000px;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}/*边框位置*/
+.shouyesirenjiaolian>div>div>div:first-child{
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}/*私人教练位置*/
+.shouyesirenjiaolian>div>div>div:first-child>div:first-child{
+    color: red;
+}/*教练文字颜色*/
+.shouyesirenjiaolian>div>div>div:nth-child(2){
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+}/*图片居中*/
+.shouyesirenjiaolian>div>div>div:nth-child(2) img{
+    margin: 0 20px;
+}/*图片间距*/
+.shouyesirenjiaolian>div>div>div:nth-child(2){
+    text-align: center;
+}/*图片文字居中*/
+.shouyesirenjiaolian>div>div>div:nth-child(3){
+    border: 1px solid white;
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: black;
+}/*MORE+居中*/
+
+.shouyesirenjiaolian>div>div>div:nth-child(3):hover{
+    background-color: white;
+}
+.lizhi{
+    background-color: red;
+    height: 90px;
+    font-size: 13px;
+}/*背景*/
+.lizhi>div{
+    /*border: 1px solid black;*/
+    color: white;
+    margin: auto;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}/*文字排序*/
+.lizhi>div>div:first-child{
+    margin: 25px 0;
+}/*文字间隔*/
+.lizhi>div>div:nth-child(2){
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    margin: 25px ;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}/*MORE+居中*/
+.lizhi>div>div:nth-child(2):hover{
+    background-color: white;
+}
+.xinwenzixun{
+    /*background-color: dimgray;*/
+    height: 500px;
+}/*背景*/
+.xinwenzixun>div{
+    /*border: 1px solid red;*/
+    height: 500px;
+    width: 900px;
+    margin: auto;
+}/*边框*/
+.xinwenzixun>div>div:first-child{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}/*字体样式*/
+.xinwenzixun>div>div:first-child>div:first-child{
+    color: red;
+}/*字体颜色*/
+.xinwenzixun>div>div:nth-child(2)>div{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    color: black;
+    text-align: left;
+}
+.xinwenzixun>div>div:nth-child(3){
+    border: 1px solid red;
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}/*MORE+居中*/
+.onlin{
+    background-image: url("../img/klan.jpg");
+    background-size: 100%;
+    height: 400px;
+    margin: 20px 0 0 ;
+}/*背景*/
+.onlin>div>div{
+    width: 90%;
+    margin: auto;
+}/*边框居中*/
+.onlin>div>div>div{
+    display: flex;
+    justify-content: space-between;
+}/*图片文字位置*/
+.onlin>div>div>div>div:first-child{
+    /*border: 1px solid red;*/
+    height: 257px;
+    margin: 137px 0 0 200px;
+        /*margin: 140px 130px;*/
+}/*图片位置*/
+.onlin>div>div>div>div:nth-child(2){
+    background-color: white;
+    height: 350px;
+    margin: 20px 10px 0 20px;
+}/*背景大小*/
+.onlin>div>div>div>div:nth-child(2)>div:first-child{
+    margin: 10px 20px;
+    color: red;
+    font-weight: bold;
+}/*文字外间距*/
+.onlin>div>div>div>div:nth-child(2)>div:nth-child(2){
+    margin: 10px 20px;
+}/*文字外间距*/
+.onlin>div>div>div>div:nth-child(2)>div:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0 20px;
+}/*输入框排序*/
+input{
+    width:150px;
+    height:30px;
+    line-height:30px;
+    padding-left: 10px;
+    font-size: 15px;
+}/*输入框大小*/
+.onlin>div>div>div>div:nth-child(2)>div:nth-child(3)>div:nth-child(2){
+    margin: 0 50px;
+}/*电话间距*/
+.onlin>div>div>div>div:nth-child(2)>div:nth-child(3)>div:nth-child(4){
+    margin: 0 50px;
+}/*内容间距*/
+.onlin>div>div>div>div:nth-child(2)>div:nth-child(4){
+    margin: 10px 25px;
+    /*background-color: red;*/
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    /*cursor: pointer;*/
+}/*提交样式*/
+.onlin>div>div>div>div:nth-child(2)>div:nth-child(5){
+    margin: 10px 25px;
+    font-weight: bold;
+}/*THANKS样式*/
+.jiewei{
+    /*border: 1px solid red;*/
+    background-color: dimgray;
+    height: 20px;
+    /*margin: 0;*/
+}
+
+
+
+
+
+
+
+
+

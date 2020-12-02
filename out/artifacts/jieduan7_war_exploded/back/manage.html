@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/back/manage.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/manage.js"></script>
+<!--    <script src="/js/back/myAjax.js"></script>-->
+</head>
+<body>
+<!--顶部-->
+<div class="top">
+    <div>
+        <div>当前用户：<span id="username">admin</span></div>
+        <div><a href="/back/exit">退出</a></div>
+    </div>
+</div>
+<!--左边-->
+<div class="left">
+        <ul>
+            <li>导航管理
+                <ol>
+                    <li><a href="javascript:$('#right').load('/back/Nav/navManage.html')">导航查询</a></li>
+                    <li><a href="javascript:$('#right').load('/back/Nav/navAdd.html')">导航新增</a></li>
+                </ol>
+            </li>
+            <li>用户管理
+                <ol>
+                    <li><a href="javascript:$('#right').load('/back/User/userManage.html')">用户查询</a></li>
+                    <li><a href="javascript:$('#right').load('/back/User/userRegister.html')">用户注册</a></li>
+                </ol>
+            </li>
+            <li>公司管理
+                <ol>
+                    <li><a href="javascript:$('#right').load('/back/Company/companyManage.html')">公司查询</a></li>
+                    <li><a href="javascript:$('#right').load('/back/Company/companyAdd.html')">公司新增</a></li>
+                </ol>
+            </li>
+            <li>新闻管理
+                <ol>
+                    <li><a href="javascript:$('#right').load('/back/News/newsManage.html')">新闻查询</a></li>
+                    <li><a href="javascript:$('#right').load('/back/News/newsAdd.html')">新闻新增</a></li>
+                </ol>
+            </li>
+            <li>教练管理
+                <ol>
+                    <li><a href="javascript:$('#right').load('/back/Train/trainManage.html')">教练查询</a></li>
+                    <li><a href="javascript:$('#right').load('/back/Train/trainAdd.html')">教练新增</a></li>
+                </ol>
+            </li>
+            <li>健身项目
+                <ol>
+                    <li><a href="javascript:$('#right').load('/back/Product/productManage.html')">项目查询</a></li>
+                    <li><a href="javascript:$('#right').load('/back/Product/productAdd.html')">项目新增</a></li>
+                </ol>
+            </li>
+            <li>留言管理
+                <ol>
+                    <li><a href="javascript:$('#right').load('/back/Leave/LeaveManage.html')">留言管理</a></li>
+<!--                    <li><a href="javascript:$('#right').load('/back/Leave/LeaveFindAll.html')">留言删除</a></li>-->
+                </ol>
+            </li>
+        </ul>
+    </div>
+<!--右边-->
+<div class="right" id="right">
+</div>
+</body>
+</html>

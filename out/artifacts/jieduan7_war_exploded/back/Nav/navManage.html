@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js"></script>
+    <link rel="stylesheet" href="/css/findAll.css">
+    <script src="/js/back/nva/navFindAll.js"></script>
+    <script src="/js/back/myAjax.js"></script>
+</head>
+<body>
+<div>
+    <div>导航名称：<input type="text" id="navName"></div>
+    <div>导航描述：<input type="text" id="navContent"></div>
+    <div><input type="button" value="查询" onclick="findAll()">
+        <input type="reset" value="清空" onclick="window.navClear()"></div>
+</div>
+<table class="find-all">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>导航名称</th>
+        <th>导航描述</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="navFindAll">
+
+    </tbody>
+</table>
+<div id="page">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js"></script>
+    <link rel="stylesheet" href="/css/findAll.css">
+    <script src="/js/back/train/trainManage.js"></script>
+    <script src="/js/back/myAjax.js"></script>
+</head>
+<body>
+<div>
+    <div>教练名称：<input type="text" id="name"></div>
+    <div>教练描述：<input type="text" id="content"></div>
+    <div><input type="button" value="查询" onclick="findAll()">
+        <input type="reset" value="清空" onclick="window.tClear()"></div>
+</div>
+<table class="find-all">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>教练名称</th>
+        <th>教练图片</th>
+        <th>教练描述</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="trainFindAll">
+
+    </tbody>
+</table>
+<div id="page">
+
+</div>
+</body>
+</html>

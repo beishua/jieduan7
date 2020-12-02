@@ -1,0 +1,28 @@
+.find-all{
+    width: 100%;
+}
+.find-all tbody tr:nth-child(even){
+    background-color: aqua;
+}
+.find-all tbody tr:nth-child(odd){
+    background-color: aquamarine;
+}
+.find-all thead th{
+    text-align: left;
+
+}
+.find-all>tbody>tr>td{
+   min-width:50px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    max-width: 500px;
+}
+/*div{!* 多行溢出隐藏 *!*!*/
+/*   /*    width: 100px;*/
+/*    display: -webkit-box;*/
+/*    -webkit-box-orient: vertical;*/
+/*    -webkit-line-clamp: 2;*/
+/*    overflow: hidden;*/
+/*}*/
+

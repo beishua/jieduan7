@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hongyedongtai>div{
+    width: 80%;
+    margin: auto;
+}/*边框位置*/
+.hongyedongtai>div>div:first-child>div:first-child>div{
+    margin: 20px 40px;
+    display: flex;
+    justify-content: flex-start;
+    text-indent: 8px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    font-size: 13px;
+}/*下划线*/
+.hongyedongtai>div>div:first-child>div:nth-child(2)>div{
+    height: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}/*字体样式*/
+.hongyedongtai>div>div:first-child>div:nth-child(2){
+    /*padding: 0 40px;*/
+    font-size: 14px;
+    /*border: 1px solid white;*/
+}
+.hongyedongtai>div>div:nth-child(2) {
+    width: 90%;
+    font-size: 14px;
+    margin: auto;
+    
+}/*边框位置*/
+.hongyedongtai>div>div:nth-child(2)>div{
+    margin: 20px auto;
+}/*边框居中*/
+.hongyedongtai>div>div:nth-child(2)>div>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}/*排序*/
+.hongyedongtai>div>div:nth-child(2)>div>div:first-child>div:first-child{
+    width: 210px;
+    /*height: 70px;*/
+    text-align: center;
+     padding: 20px 0;
+    background-color: black;
+    color: white;
+}/*月份位置*/
+.hongyedongtai>div>div:nth-child(2)>div>div:first-child>div:nth-child(2){
+    margin: 0 0 0 20px;
+}
+/*---*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin: 20px 0 0;
+}/*排序*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(2)>div:first-child{
+    width: 140px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}/*月份位置*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(2)>div:nth-child(2){
+    margin: 0 0 0 20px;
+}
+/*---*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin: 20px 0 0;
+}/*排序*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(3)>div:first-child{
+    width: 75px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}/*月份位置*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(3)>div:nth-child(2){
+    margin: 0 450px 0 10px;
+}
+/*---*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin: 20px 0 0;
+}/*排序*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(4)>div:first-child{
+    width: 75px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}/*月份位置*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(4)>div:nth-child(2){
+    margin: 0 490px 0 20px;
+}
+/*---*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(5){
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin: 20px 0 0 ;
+}/*排序*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(5)>div:first-child{
+    width: 75px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}/*月份位置*/
+.hongyedongtai>div>div:nth-child(2)>div>div:nth-child(5)>div:nth-child(2){
+    margin: 0  610px 0 0;
+}
+.hongyedongtai>div:nth-child(2)>div{
+    display: flex;
+    justify-content: center;
+    line-height: 5px;
+}
+.hongyedongtai>div:nth-child(2)>div:first-child>div:first-child{
+    /*margin: 0 5px;*/
+    width: 20px;
+    height: 20px;
+    margin: 10px 6px 0 0 ;
+}
+.hongyedongtai>div:nth-child(2)>div:first-child>div:nth-child(2){
+    height: 30px;
+    margin: 10px 0 0 0 ;
+}
+.hongyedongtai>div:nth-child(2)>div:first-child>div:nth-child(3){
+    /*margin: 0 5px;*/
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 15px ;
+}
+.hongyedongtai>div:nth-child(3){
+    background-color: dimgray;
+    height: 20px;
+    width: 100%;
+}
+/*.hongyedongtai>div:nth-child(2)>div>div:first-child:hover{*/
+/*    cursor: pointer;*/
+/*}*/
+/*.hongyedongtai>div:nth-child(2)>div>div:nth-child(3):hover{*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+
+
+
+
+
+

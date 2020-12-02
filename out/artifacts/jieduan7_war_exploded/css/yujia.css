@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.yujiachanpin>div>div:first-child>div:nth-child(2){
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px auto;
+    width: 80%;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+.yujiachanpin>div>div:nth-child(2)>div:first-child{
+    /*border: 1px solid red;*/
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+/*.yujiachanpin>div>div:nth-child(2)>div:first-child:hover{*/
+/*    background-color: red;*/
+/*}*/
+.yujiachanpin>div>div:nth-child(2)>div:nth-child(2){
+    width: 70%;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.yujiachanpin>div>div:nth-child(3)>div{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 5%;
+}
+.yujiachanpin>div>div:nth-child(3)>div>div:first-child{
+    cursor: pointer;
+}
+.yujiachanpin>div>div:nth-child(3)>div>div:nth-child(2){
+    border: 1px solid black;
+    width: 20px;
+    margin: auto 10px;
+    cursor: pointer;
+}
+.yujiachanpin>div>div:nth-child(3)>div>div:nth-child(3){
+    cursor: pointer;
+}
+.yujiachanpin>div:nth-child(2){
+    background-color: dimgray;
+    height: 20px;
+    margin: 10px 0 0 0;
+}
+
+
+

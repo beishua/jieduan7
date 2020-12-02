@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/back/myAjax.js"></script>
+    <script src="/js/back/user/userManage.js"></script>
+    <link rel="stylesheet" href="/css/findAll.css">
+</head>
+<body>
+<div>
+    <div>用户名<input type="text" id="username1"></div>
+    <div>生日<input type="date" id="startBirthday">至<input type="date" id="endBirthday"></div>
+    <div>介绍<input type="text" id="introduce"></div>
+    <div>爱好
+        <label><input type="checkbox" name="hobby" value="游戏">游戏</label>
+        <label><input type="checkbox" name="hobby" value="篮球">篮球</label>
+        <label><input type="checkbox" name="hobby" value="羽毛球">羽毛球</label>
+        <label><input type="checkbox" name="hobby" value="乒乓球">乒乓球</label>
+    </div>
+    <div>性别
+        <select id="sex">
+            <option value="0">全部</option>
+            <option value="1">男</option>
+            <option value="2">女</option>
+            <option value="3">保密</option>
+        </select>
+    </div>
+    <div>手机号<input type="text" id="phone"></div>
+    <div><input type="button" value="查询" onclick="findAll()">
+    <input type="reset" value="清空" onclick="window.uClear()"></div>
+</div>
+<table class="find-all">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>用户名</th>
+        <th>手机</th>
+        <th>性别</th>
+        <th>生日</th>
+        <th>爱好</th>
+        <th>自我介绍</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="userFindAll">
+
+    </tbody>
+</table>
+<div id="page">
+
+</div>
+</body>
+</html>

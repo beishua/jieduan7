@@ -1,0 +1,48 @@
+.nav{
+    background-color: black;
+    height: 80px;
+}/*顶部背景*/
+.nav>div{
+    width: 1000px;
+    margin: auto;
+}/*导航边框*/
+.nav>div>div{
+    display: flex;
+    justify-content: space-between;
+}/*导航文字排序*/
+.nav>div>div>div:first-child{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 10px 0;
+}/*裸体标志位置*/
+.nav>div>div>div:first-child>div:nth-child(2){
+    padding: 10px 0;
+}/*万息健身位置*/
+.nav>div>div>div:nth-child(2){
+    width: 800px;
+    line-height: 80px;
+    height: 77px;
+}/*边框大小*/
+.nav>div>div>div:nth-child(2)>div{
+    display: flex;
+    justify-content:space-around;
+}/*字体居中*/
+/*.nav>div>div>div:nth-child(2)>div>a:first-child:hover{*/
+/*    background-color: red;*/
+/*}*/
+/*.nav>div>div>div:nth-child(2)>div:first-child>a:nth-child(2):hover{*/
+/*    background-color: red;*/
+/*}*/
+/*.nav>div>div>div:nth-child(2)>div:first-child>a:nth-child(3):hover{*/
+/*    background-color: red;*/
+/*}*/
+/*.nav>div>div>div:nth-child(2)>div:first-child>a:nth-child(4):hover{*/
+/*    background-color: red;*/
+/*}*/
+/*.nav>div>div>div:nth-child(2)>div:first-child>a:nth-child(5):hover{*/
+/*    background-color: red;*/
+/*}*/
+/*.nav>div>div>div:nth-child(2)>div:first-child>a:nth-child(6):hover{*/
+/*    background-color: red;*/
+/*}*/

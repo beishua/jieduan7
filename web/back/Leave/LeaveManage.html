@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/back/myAjax.js"></script>
+    <script src="/js/back/leave/leaveManage.js"></script>
+    <link rel="stylesheet" href="/css/findAll.css">
+</head>
+<body>
+<div>
+    <div>姓名：<input type="text" id="name"></div>
+    <div>电话：<input type="text" id="phone"></div>
+    <div>邮箱：<input type="text" id="email"></div>
+    <div>内容：<input type="text" id="content"></div>
+    <div><input type="button" value="查询" onclick="findAll()">
+    <input type="reset" value="清空" onclick="window.clear()"></div>
+</div>
+<table class="find-all">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>姓名</th>
+        <th>电话</th>
+        <th>邮箱</th>
+        <th>内容</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody id="leaveFindAll">
+
+    </tbody>
+</table>
+<div id="page">
+
+</div>
+</body>
+</html>

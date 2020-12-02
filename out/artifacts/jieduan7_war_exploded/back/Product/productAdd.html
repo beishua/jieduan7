@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/manage.js"></script>
+    <script src="/js/back/product/programFindAll.js"></script>
+    <script src="/js/back/product/productAdd.js"></script>
+    <script src="/js/back/myAjax.js"></script>
+</head>
+<body>
+    <div>项目选择：
+        <select id="program" name="program"></select>
+    </div>
+    <div>项目名称：<input type="text" id="title" name="title"></div>
+    <div>项目图片：<input type="file" id="imgHref" name="imgHref"></div>
+    <div>项目价格：<input id="pice" name="pice"></div>
+    <div>详细内容：<textarea id="contentForDetailed" name="contentForDetailed"></textarea></div>
+    <div><input type="button" value="提交" onclick="productAdd()"></div>
+</body>
+</html>

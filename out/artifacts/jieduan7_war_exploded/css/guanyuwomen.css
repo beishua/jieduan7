@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.guanyuwomen>div{
+    width: 80%;
+    margin: auto;
+}/*居中*/
+.guanyuwomen>div>div:first-child{
+    margin: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    text-indent: 8px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}/*文字缩进*/
+.guanyuwomen>div>div:nth-child(2){
+    /*border: 1px solid red;*/
+    margin: 10px 40px;
+}/*图片位置*/
+.guanyuwomen>div>div:nth-child(3){
+    margin: 10px 90px;
+    font-size: 10px;
+}/*文字位置*/
+.guanyuwomen>div>div:nth-child(4){
+    /*border: 1px solid red;*/
+    margin: 0px 90px;
+    font-size: 10px;
+}/*文字位置*/
+.guanyuwomen>div>div:nth-child(5){
+    margin: 0 45px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+}/*下划线位置*/
+.jieshao>div{
+    width: 85%;
+    margin: 30px auto;
+}/*边框位置*/
+.jieshao>div>div{
+    /*border: 1px solid red;*/
+    width: 80%;
+    margin: 0 auto;
+}/*边框位置*/
+.jieshao>div>div>div:first-child{
+    display: flex;
+    justify-content: space-between;
+}/*图片文字排序*/
+.jieshao>div>div>div:first-child>div:first-child{
+    /*border: 1px solid blue;*/
+    margin: 0 10px 10px 0;
+}/*图片边距*/
+.jieshao>div>div>div:nth-child(2)>div:first-child{
+    margin: auto 10px;
+    float: right;
+}/**//*图片文字排序*/
+.jieshao>div>div>div:nth-child(2)>div:first-child{
+
+    float: right;
+}/*图片边距*/
+.jieshao>div>div>div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}/**//*图片文字排序*/
+.jieshao>div>div>div:nth-child(3)>div:first-child{
+    margin: 30px 10px 10px 0;
+}/*图片边距*/
+.jieshao>div>div>div:first-child>div:nth-child(2){
+    margin: 10px 0 10px 0;
+}/*文字边距*/
+.jieshao>div>div>div:nth-child(2)>div:nth-child(2){
+    margin: 10px 0 10px 0;
+}/*文字边距*/
+.jieshao>div>div>div:nth-child(3){
+    width: 99%;
+}
+.jieshao>div>div>div:nth-child(3)>div:nth-child(2){
+    margin: 30px 0 10px 0;
+}/*文字边距*/
+.jieshao>div>div>div:first-child>div:nth-child(2)>div:nth-child(2){
+    /*border: 1px solid red;*/
+    margin: 20px 0;
+}/*文字边距*/
+.jieshao>div>div>div:nth-child(2)>div:nth-child(2)>div:first-child{
+    margin: 25px 0;
+}/*文字边距*/
+.jieshao>div>div>div:nth-child(3)>div:nth-child(2)>div:nth-child(2){
+    /*border: 1px solid red;*/
+    margin: 20px 0;
+}/*文字边距*/
+.xueyuanfengcai{
+    background-color: black;
+    height: 550px;
+}/*背景*/
+.xueyuanfengcai>div{
+    width: 70%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+}/*边框位置*/
+.xueyuanfengcai>div>div:first-child{
+    text-align: center;
+    color: white;
+    margin: 10px 0 20px;
+    font-weight: bold;
+}/*文字居中*/
+.xueyuanfengcai>div>div:first-child>div:first-child{
+    margin: 20px 0 0 0 ;
+    color: red;
+}/*文字颜色*/
+.xueyuanfengcai>div>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+.xueyuanfengcai>div>div:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+.xueyuanfengcai>div:nth-child(2) {
+    border: 1px solid white;
+    width: 80px;
+    height: 25px;
+    margin: 7px auto;
+    line-height: 25px;
+    border-radius:5px;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+}/*鼠标样式*/
+.dibu{
+    background-color: dimgray;
+    height: 20px;
+    margin: 5px 0 0 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

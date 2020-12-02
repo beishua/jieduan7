@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/back/myAjax.js"></script>
+    <script src="/js/front/home.js"></script>
+    <script src="/js/back/leave/leaveAdd.js"></script>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+<!--首页-->
+<div id="nav"></div>
+<div class="quanjishou">
+    <div>
+        <div><img src="/img/jghy.jpg" height="1287" width="1920"/></div>
+    </div>
+</div>
+<div class="shouyeguanyuwomen">
+    <div>
+        <div>
+            <div>关于我们</div>
+            <div>ABOUT US</div>
+        </div>
+        <div>
+            万息健身用品专卖店是由上市公司中高体股份有限公司和美国倍
+            力公司合作成立的一家高度专业化、规模化、高档次经营健身俱
+            乐部的合资公司，中体产业股份有限公司是国家体育总局控股的
+            利康体育上市公司，自1998年3月成立以来，始终致力于体育产
+            业的经营与开发，并不断拓展体育市场经营领域，实现体育产业
+            的多元化经营。
+        </div>
+    </div>
+</div>
+<div class="shouyesirenjiaolian">
+    <div>
+        <div>
+            <div>
+                <div>私人教练</div>
+                <div>OUR TEAM</div>
+            </div>
+            <div id="coachHtmlForHome">
+<!--                <div>-->
+<!--                    <div><img src="../img/uk1s.jpg" height="200" width="200"/></div>-->
+<!--                    <div>玛丽格特</div>-->
+<!--                    <div>二级健身指导员</div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <div><img src="../img/2fi2.jpg" height="200" width="200"/></div>-->
+<!--                    <div>布鲁斯</div>-->
+<!--                    <div>二级健身指导员</div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <div><img src="../img/ca9a.jpg" height="200" width="200"/></div>-->
+<!--                    <div>TOM</div>-->
+<!--                    <div>一级健身指导员</div>-->
+<!--                </div>-->
+            </div>
+            <div>
+                <div><a href="/html/PersonalTrainer.html">MORE+</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="lizhi">
+    <div>
+        <div>
+            <div>与其计划明天不如从今天开始</div>
+            <div>lt is better to start today than to plan tomorrow</div>
+        </div>
+        <div><a href="/html/PersonalTrainer.html" >MORE+</a></div>
+    </div>
+</div>
+<div class="xinwenzixun">
+    <div>
+        <div>
+            <div>新闻资讯</div>
+            <div>NEWS</div>
+        </div>
+        <div>
+            <div id="newsHtml">
+<!--                <div>-->
+<!--                    <div><img src="../img/2ady.jpg" height="200" width="200"/></div>-->
+<!--                    <div>未来，健身行业发展的趋势是什么?</div>-->
+<!--                    <div>2015-11-25</div>-->
+<!--                    <div>未来，医疗与运动防护结合是健身行业发展的大趋势首屈</div>-->
+<!--                    <div>中国好教练运动防护培训视频集锦</div>-->
+<!--                    <div>作为经营者需意识</div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <div><img src="../img/wwuc.jpg" height="200" width="200"/></div>-->
+<!--                    <div>夏季参加户外运动注意事项:防晒至关重要</div>-->
+<!--                    <div>2014-10-09</div>-->
+<!--                    <div>夏季进行海岸线穿越或者是登山，阳光相当强烈，务必要</div>-->
+<!--                    <div>注意防晒。—般来说，队伍在早晨出发，到达出发地点</div>-->
+<!--                    <div> 已.</div>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <div><img src="../img/k1nj.jpg" height="200" width="200"/></div>-->
+<!--                    <div>户外急救:两根竹子—根绳就地取材学做担架</div>-->
+<!--                    <div>2014-10-09</div>-->
+<!--                    <div>昨日上午11点半，人民公园门口围着—群身穿橘黄色马甲</div>-->
+<!--                    <div>的人，他们是成都市综合应急志愿者服务队的部分成.</div>-->
+<!--                    <div></div>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div><a href="/html/CompanyNews.html" style="color: white" >MORE+</a></div>
+    </div>
+</div>
+<div class="onlin">
+    <div>
+        <div>
+            <div>
+                <div><img src="/img/acfa5605108c3150158055c03e58b035.png" height="260" width="360"/></div>
+                <div>
+                    <div>填表格可在私教带领下免费体验—次!</div>
+                    <div>请仔细填写好下方预约表格，我们的客服人员会在24小时内与您联系，
+                    谢谢您的支持与关注!</div>
+                    <div>
+                        <div>
+                            <div>姓名</div>
+                            <div><input type="text" id="name" ></div>
+                        </div>
+                        <div>
+                            <div>电话</div>
+                            <div><input type="text" id="phone"></div>
+                        </div>
+                        <div>
+                            <div>邮箱</div>
+                            <div><input type="text" id="email"></div>
+                        </div>
+                        <div>
+                            <div>内容</div>
+                            <div><input type="text" id="content"></div>
+                        </div>
+                    </div>
+                    <div><input type="button" value="提交" onclick="leaveAdd()" style="cursor: pointer;background-color: red"></div>
+                    <div>THANKS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jiewei"></div>
+</body>
+</html>
